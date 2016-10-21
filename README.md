@@ -2,7 +2,7 @@ Entity Extraction Service
 ======================
 
 Named Entity Recognition. Uses a dictionary for phrases to be considered entities.
-Those phrases has been extracted from Wikipedia titles form 2012. A final user can add its own.
+Those phrases has been from DBpedia some time ago. A final user can add its own.
 
 A docker image with this modules as it is here is available at https://hub.docker.com/r/mixedemotions/08_entity_extraction_pt/
 

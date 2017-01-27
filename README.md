@@ -1,8 +1,8 @@
-Entity Extraction Service
+Spanish Entity Extraction Service
 ======================
 
 Named Entity Recognition. Uses a dictionary for phrases to be considered entities.
-Those phrases has been from DBpedia some time ago. A final user can add its own.
+Those phrases have been extracted from DBpedia. A final user can add its own.
 
 A docker image with this modules as it is here is available at https://hub.docker.com/r/mixedemotions/08_entity_extraction_pt/
 
@@ -89,6 +89,17 @@ For creating a docker image, just configure your own data files (pagelinks_all.t
 Then execute:
 
     docker build -t {name} .
+    
+    
+## Acknowledgement
+
+This module was developed by [Paradigma Digital](https://en.paradigmadigital.com/). This development has been partially funded by the European Union through the MixedEmotions Project (project number H2020 655632), as part of the `RIA ICT 15 Big data and Open Data Innovation and take-up` programme.
+
+![MixedEmotions](https://raw.githubusercontent.com/MixedEmotions/MixedEmotions/master/img/me.png) 
+
+![EU](https://raw.githubusercontent.com/MixedEmotions/MixedEmotions/master/img/H2020-Web.png)
+
+ http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/index.html
 
 
 
